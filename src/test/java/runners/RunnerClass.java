@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
         //pretty keywords prints all the steps in console which we execute
         //to generate the report, i need to mention type of report and location
         plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json",
-                "rerun:target/failed.txt"}
+        "rerun:target/failed.txt"}
 )
 
 public class RunnerClass {
